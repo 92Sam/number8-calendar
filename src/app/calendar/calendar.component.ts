@@ -127,7 +127,7 @@ export class CalendarComponent implements OnInit {
 						var monthNumber = date.dateUtc.getMonth();
 						var yearNumber = date.dateUtc.getUTCFullYear();
 						for(var i= 0; i < dayOfWeek; i++){
-							let objetDate: object = {
+							let objetDate: any = {
 								show:false,
 								month:this.getSpecificMonth(monthNumber),
 								typeDay:this.verifyTypeDay(yearNumber,monthNumber,numberDayOfWeek),
