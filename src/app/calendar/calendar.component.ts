@@ -14,11 +14,11 @@ class calendarModel {
   styleUrls: ['./calendar.component.css']
 })
 export class CalendarComponent implements OnInit {
-	private countrys:Array<string>;
-	private dateRangesComponent:object;
-	private dateRangesKeys:object;
+	countrys:Array<string>;
+	dateRangesComponent:object;
+	dateRangesKeys:object;
 
-	private calendar: calendarModel = {
+	calendar: calendarModel = {
 	    date: "01/01/1992",
 	    numberDays: 365,
 	    countrySelected:""
